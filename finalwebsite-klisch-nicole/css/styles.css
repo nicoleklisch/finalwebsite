@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Merriweather', serif;
+}
+
+
+body{
+    background-color: rgb(236, 248, 248)
+}
+
+.mainfirst {
+    text-align: center;
+    background-color: rgb(231, 216, 201);
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+}
+
+
+.mainsecond {
+    margin: 50px 50px 50px 50px;
+    border: 100px;
+    text-align: center;
+}   
+
+.images1,
+.images2,
+.images3 {
+    display: inline;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.images1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images3 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mainbuttons1,
+.mainbuttons2,
+.mainbuttons3 {
+    display: inline-block;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 2px;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.mainbuttons1 a {
+    text-decoration: none;
+    color:rgb(178, 150, 125);
+}
+
+.mainbuttons1 a:hover {
+    color: rgb(196, 150, 178);
+}
+
+.mainbuttons2 a {
+    text-decoration: none;
+    color:rgb(178, 150, 125);
+}
+
+.mainbuttons2 a:hover {
+    color: rgb(196, 150, 178);
+}
+
+.mainbuttons3 a {
+    text-decoration: none;
+    color:rgb(178, 150, 125);
+}
+
+.mainbuttons3 a:hover {
+    color: rgb(196, 150, 178);
+}
+
+.aboutme {
+    color:rgb(196, 150, 178);
+    text-align: center;
+}
+
+.aboutme a {
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.aboutme a:hover {
+    color: rgb(178, 150, 125);
+}
+
+.aboutmewords {
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.aboutmetitle {
+    margin: 75px 0 50px 0;
+    text-align: center;
+    color: rgb(196, 150, 178);
+}
+
+.aboutmetwo {
+    text-align: center;
+    margin: 75px 0 50px 0;
+}
+
+.aboutmethree{
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+   text-align: center;
+   color: rgb(178, 150, 125);
+
+}
+
+.aboutmethree a {
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+}
+
+.aboutmethree a:hover {
+    color: rgb(178, 150, 125);
+}
+
+.aboutmefour {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.blogtitle {
+    text-align: center;
+    color: rgb(196, 150, 178);
+    margin: 75px 0 50px 0;
+}
+
+.blog1 {
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.blog1 a {
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+    margin: 20px 0 20px 0;
+}
+
+
+.blog2 {
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.blog2 a {
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+    margin: 20px 0 20px 0;
+}
+
+.blog3 {
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+
+.blog3 a {
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+    margin: 20px 0 80px 0;
+}
+
+.blog4 {
+    text-align: center;
+    color: rgb(196, 150, 178);
+    margin: 20px 0 100px 0;
+}
+
+.blogpost1 {
+    text-align: center;
+    margin: 75px 0 75px 0;
+}
+
+.blogpost1story {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: rgb(196, 150, 178);
+}
+
+.blogpost1end {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.blogtitle2 {
+    text-align: center;
+    color: rgb(196, 150, 178);
+    margin: 75px 0 50px 0;
+}
+
+.blogpost2 {
+    text-align: center;
+    margin: 75px 0 75px 0;
+}
+
+.blogpost2story {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: rgb(196, 150, 178);
+}
+
+.blogpost2end {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.blogtitle3 {
+    text-align: center;
+    color: rgb(196, 150, 178);
+    margin: 75px 0 50px 0;
+}
+
+.blogpost3 {
+    text-align: center;
+    margin: 75px 0 75px 0;
+}
+
+.blogpost3story {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: rgb(196, 150, 178);
+}
+
+.blogpost3end {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.portfoliotitle {
+    color:rgb(196, 150, 178);
+    text-align: center;
+    margin: 75px 0 50px 0;
+    
+}
+
+.portfoliotwo {
+    color:rgb(196, 150, 178);
+    text-align: center;
+}
+
+.portfoliothree {
+    color: rgb(178, 150, 125);
+    text-align:center;
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.portfolioend {
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+
+.portfoliothree a{
+    text-decoration: none;
+    color: rgb(196, 150, 178);
+}
+
+.container{
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 5px;
+    color: rgb(196, 150, 178);
+    font-family: Merriweather;
+    margin: 80px auto;
+    text-align: center;
+    text-shadow: 2px 2px rgb(178, 150, 125);
+}
+
+form {
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(231, 216, 201);
+    margin: 80px auto;
+    text-align: left;
+    color: rgb(196, 150, 178);
+    box-shadow: 10px 10px
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+.submit input {
+    background: rgb(196, 150, 178);
+    color: white;
+    padding: 5px 20px;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+    border-radius: 2px;
+}
+
+
+.container h1::selection {
+    background: tan;
+    color: rgb(196, 150, 178);
+}
+
+header {
+    text-align: left;
+    background: rgb(231, 216, 201);
+    padding: 20px 20px;
+
+}
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(178, 150, 125);
+}
+
+
+header nav a:hover {
+    color: rgb(196, 150, 178);
+}
+
+header nav a:active {
+    color: tan;
+}
+
+footer {
+    background: rgb(231, 216, 201);
+    color: rgb(178, 150, 125);
+    text-align: center;
+    padding: 20px 0;
+}
+

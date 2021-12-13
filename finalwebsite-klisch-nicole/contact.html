@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Nicole Klisch</title>
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+
+    
+        
+
+    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+
+    <body>
+        <header>
+            
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "about.html">About Me</a></li>
+                        <li><a href = "portfolio.html">Portfolio</a></li>
+                        <li><a href = "blog.html">Blog</a></li>
+                        <li><a href = "contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+
+        </header>
+         
+
+
+        <main>
+            <div class="container">
+                <h1>Contact Me</h1>
+                <h3>Want to learn more or work together? Fill out the form below to get in touch!</h3>
+            </div>
+
+                <form name="Contact Me" id="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                    <div class="first-name input-section">
+                        <label for="firstname" class="label_input_wrap">First Name:</label>
+                        <input type="text" name="firstname" id="firstman" placeholder=" Ex. Nicole"/>
+                    </div>
+                        
+                    
+                    <div class="last-name input-section">
+                        <label for="lastname" class="label_input_wrap">Last Name:</label> 
+                        <input type="text" name="lastname" id="lastname" placeholder="Ex. Klisch" />
+                    </div>
+
+                    <div class="email input-section">
+                        <label for="email" class="label_input_wrap">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="nicoleklisch@example.com"/>
+                    </div>
+
+                    <div class="telephone input-section">
+                        <label for="telephone" class="label_input_wrap">Telephone:</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="888-888-8888"/>
+                    </div>
+
+                    <div class="comments input-section">
+                        <label for="comments" class="label_input_wrap">Comments:</label>
+                        <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Your Comment Goes Here" ></textarea>
+                    </div>
+
+                    <div class="submit input-section">
+                        <input type="submit" value="Send Message"/>
+                    </div>
+                              
+                </form>
+      
+        </main>
+
+        <footer>
+            <p>This page designed by Nicole Klisch.</p>
+        </footer>
+        
+    </body>
+</html>
